@@ -20,14 +20,5 @@
 
 
 
-    <!--<SolidColorBrush x:Key="TextColor" Color="#2D3748"/>
 
-    <SolidColorBrush x:Key="ButtonHover" Color="#E0FA71"/>
-    <SolidColorBrush x:Key="ButtonPressed" Color="Orange"/>
-    <SolidColorBrush x:Key="ButtonForeground" Color="#2D3748"/>
-    <SolidColorBrush x:Key="ButtonBackground" Color="#9BB041"/>
-    <SolidColorBrush x:Key="ButtonBorder" Color="#9BB041"/>
-
-    <SolidColorBrush x:Key="StackBackground" Color="#E9FE91"/>
-    <SolidColorBrush x:Key="GridBackground" Color="#E9FE91"/>-->
 </ResourceDictionary>

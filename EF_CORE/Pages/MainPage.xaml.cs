@@ -1,4 +1,5 @@
 ﻿using EF_CORE.Data;
+using EF_CORE.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,31 +23,34 @@ namespace EF_CORE.Pages
     public partial class MainPage : Page
     {
         public StudentsService service { get; set; } = new();
-        public Student? student { get; set; } = null;
+        public Student? user { get; set; } = null;
 
         public MainPage()
         {
             InitializeComponent();
         }
-
-        private void create(object sender, RoutedEventArgs e)
+        public void go_form(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new StudentFormPage());
+            NavigationService.Navigate(new UserFormPage());
+        }
+
+        public void go_role(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new GroupList());
         }
 
         public void Edit(object sender, EventArgs e)
         {
-            if (student == null)
+            if (user == null)
             {
                 MessageBox.Show("Выберите элемент из списка!");
                 return;
             }
-            NavigationService.Navigate(new StudentFormPage(student));
+            NavigationService.Navigate(new UserFormPage(user));
         }
-
         public void remove(object sender, EventArgs e)
         {
-            if (student == null)
+            if (user == null)
             {
                 MessageBox.Show("Выберите запись!");
                 return;
@@ -54,10 +58,14 @@ namespace EF_CORE.Pages
             if (MessageBox.Show("Вы действительно хотите удалить запись?", "Удалить?",
             MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                service.Remove(student);
+                service.Remove(user);
             }
         }
 
+        public void editProfile(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new ProfilePage(user));
+        }
 
     }
 }

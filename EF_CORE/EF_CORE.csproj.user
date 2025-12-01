@@ -5,8 +5,5 @@
     <Compile Update="Pages\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\StudentFormPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

@@ -4,25 +4,24 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EF_CORE.Pages"
-      DataContext="{Binding RelativeSource={RelativeSource Self}}"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MainPage">
-
-   
+      d:DesignHeight="500" d:DesignWidth="800"
+      DataContext="{Binding RelativeSource={RelativeSource Self}}"
+      Title="MainPage">    
+    
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button Click="create">Добавить</Button>
-            <Button Click="remove">Удалить</Button>
+            <Button Click="go_form">Добавить пользователя</Button>
+            <Button Click="remove">Удалить пользователя</Button>
+            <Button Click="go_role">Управление ролями</Button>
+            <Button Click="editProfile">Посмотреть профиль</Button>
         </StackPanel>
-        <ListView Grid.Row="1"
-ItemsSource="{Binding service.Students}"
-                  MouseDoubleClick="Edit"
-SelectedItem="{Binding student}">
+        <ListView Grid.Row="1" ItemsSource="{Binding service.Students}"
+              MouseDoubleClick="Edit" SelectedItem="{Binding user}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -31,10 +30,11 @@ SelectedItem="{Binding student}">
                         <TextBlock Text="{Binding Email}"/>
                         <TextBlock Text="{Binding Password}"/>
                         <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                        <TextBlock Text="{Binding Role.Title}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
     </Grid>
 </Page>
+

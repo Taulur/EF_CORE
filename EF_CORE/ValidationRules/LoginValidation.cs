@@ -1,4 +1,5 @@
 ﻿using EF_CORE.Data;
+using EF_CORE.Service;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -11,7 +12,7 @@ namespace EF_CORE.ValidationRules
 {
     public class LoginValidation : ValidationRule
     {
-        public StudentsService service { get; set; } = new();
+        StudentsService studentsService = new StudentsService();
         public override ValidationResult Validate(object value, CultureInfo
         cultureInfo)
         {
@@ -24,7 +25,7 @@ namespace EF_CORE.ValidationRules
             {
                 return new ValidationResult(false, "Должно быть больше пяти символов");
             }
-            foreach (Student student in service.Students)
+            foreach (Student student in studentsService.Students)
             {
                 if (student.Login == input)
                     return new ValidationResult(false, "Такой логин уже существует");

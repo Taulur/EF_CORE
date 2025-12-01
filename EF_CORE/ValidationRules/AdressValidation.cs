@@ -6,12 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using EF_CORE.Service;
 
 namespace EF_CORE.ValidationRules
 {
     public class AdressValidation : ValidationRule
     {
-        public StudentsService service { get; set; } = new();
+        StudentsService studentsService = new StudentsService();
         public override ValidationResult Validate(object value, CultureInfo
         cultureInfo)
         {
@@ -26,7 +27,7 @@ namespace EF_CORE.ValidationRules
             }
             if (!input.Contains('@'))
                 return new ValidationResult(false, "Адрес должен иметь символ '@'");
-            foreach (Student student in service.Students)
+            foreach (Student student in studentsService.Students)
             {
                 if (student.Email == input)
                     return new ValidationResult(false, "Такой адрес уже существует");

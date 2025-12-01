@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Учеба\EF_CORE\EF_CORE\App.xaml
-5-639573311
+10-468268641
 22417047151
-21-1464573029
+33-297942351
 231-816322737
-MainWindow.xaml;Pages\MainPage.xaml;Pages\StudentFormPage.xaml;Styles\Interfaces\Main.xaml;Styles\Theme\Default.xaml;
+MainWindow.xaml;Pages\EditProfilePage.xaml;Pages\GroupForm.xaml;Pages\GroupList.xaml;Pages\ListRole.xaml;Pages\MainPage.xaml;Pages\ProfilePage.xaml;Pages\UserFormPage.xaml;Styles\Interfaces\Main.xaml;Styles\Theme\Default.xaml;
 
 False
 

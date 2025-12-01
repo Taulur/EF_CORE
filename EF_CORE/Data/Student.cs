@@ -3,48 +3,69 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EF_CORE.Data;
 
 namespace EF_CORE.Data
 {
     public class Student : ObservableObject
     {
         private int _id;
+        private string _login;
+        private string _name;
+        private string _email;
+        private string _password;
+        private DateTime _createdAt;
+        private UserProfile _userProfile;
+        private int _roleId;
+        private Role _role;
+
         public int Id
         {
             get => _id;
             set => SetProperty(ref _id, value);
         }
-        private string _login;
+
         public string Login
         {
             get => _login;
             set => SetProperty(ref _login, value);
         }
-        private string _name;
+
         public string Name
         {
             get => _name;
             set => SetProperty(ref _name, value);
         }
-        private string _email;
+
         public string Email
         {
             get => _email;
             set => SetProperty(ref _email, value);
         }
-        private string _password;
         public string Password
         {
             get => _password;
             set => SetProperty(ref _password, value);
         }
-        private DateTime _createdAt;
         public DateTime CreatedAt
         {
             get => _createdAt;
             set => SetProperty(ref _createdAt, value);
+        }        
+        public UserProfile UserProfile
+        {
+            get => _userProfile;
+            set => SetProperty(ref _userProfile, value);
         }
-
+        public int RoleId
+        {
+            get => _roleId;
+            set => SetProperty(ref _roleId, value);
+        }
+        public Role Role
+        {
+            get => _role;
+            set => SetProperty(ref _role, value);
+        }
     }
-
 }

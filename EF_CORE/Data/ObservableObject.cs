@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EF_CORE.Data
+namespace EF_CORE
 {
     public class ObservableObject : INotifyPropertyChanged
     {
@@ -25,4 +25,3 @@ namespace EF_CORE.Data
         }
     }
 }
-
