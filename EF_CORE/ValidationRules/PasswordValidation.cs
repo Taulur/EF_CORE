@@ -25,12 +25,10 @@ namespace EF_CORE.ValidationRules
             }
             if (!input.Any(char.IsDigit))
                 return new ValidationResult(false, "Пароль должен содержать цифры");
-    
             if (!input.Any(char.IsUpper))
                 return new ValidationResult(false, "Пароль должен содержать заглавные буквы");
             if (!input.Any(char.IsLower))
                 return new ValidationResult(false, "Пароль должен содержать строчные буквы");
-
             if (!input.Any(ch => !char.IsLetterOrDigit(ch)))
                 return new ValidationResult(false, "Пароль должен содержать специальные символы");
             return ValidationResult.ValidResult;

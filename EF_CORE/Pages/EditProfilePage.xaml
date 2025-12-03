@@ -24,9 +24,9 @@
                 <TextBox x:Name="PhoneBox">
                     <TextBox.Text>
                         <Binding Path="UserProfile.Phone">
-                            <!--<Binding.ValidationRules>
-                        <validators:PasswordValidation/>
-                    </Binding.ValidationRules>-->
+                            <Binding.ValidationRules>
+                                <validators:NumberValidation/>
+                            </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
@@ -37,9 +37,9 @@
                 <TextBox x:Name="BirthdayBox">
                     <TextBox.Text>
                         <Binding Path="UserProfile.Birthday">
-                            <!--<Binding.ValidationRules>
-                        <validators:PasswordValidation/>
-                    </Binding.ValidationRules>-->
+                            <Binding.ValidationRules>
+                                <validators:DateValidation/>
+                            </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
@@ -49,9 +49,9 @@
                 <TextBox x:Name="UrlTextBox">
                     <TextBox.Text>
                         <Binding Path="UserProfile.AvatarUrl">
-                            <!--<Binding.ValidationRules>
-        <validators:PasswordValidation/>
-    </Binding.ValidationRules>-->
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
@@ -61,9 +61,9 @@
                 <TextBox x:Name="BioBox" Height="100">
                     <TextBox.Text>
                         <Binding Path="UserProfile.Bio">
-                            <!--<Binding.ValidationRules>
-                                    <validators:PasswordValidation/>
-                                </Binding.ValidationRules>-->
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
                 </TextBox>

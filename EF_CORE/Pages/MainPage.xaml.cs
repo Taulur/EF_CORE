@@ -64,7 +64,7 @@ namespace EF_CORE.Pages
 
         public void editProfile(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new ProfilePage(user));
+            NavigationService.Navigate(new EditProfilePage(user));
         }
 
     }

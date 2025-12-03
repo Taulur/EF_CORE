@@ -15,9 +15,6 @@ Title="GroupList">
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
             <Button Click="back">Назад</Button>
-            <Button Click="add">Добавить</Button>
-            <Button Click="remove">Удалить</Button>
-            <Button Click="edit">Редактировать</Button>
         </StackPanel>
         <ListView Grid.Row="1"
                 ItemsSource="{Binding service.Roles}"
