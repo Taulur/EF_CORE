@@ -22,6 +22,27 @@ namespace EF_CORE.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("EF_CORE.Data.InterestGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("InterestGroups");
+                });
+
             modelBuilder.Entity("EF_CORE.Data.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -76,6 +97,27 @@ namespace EF_CORE.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("EF_CORE.Data.UserInterestGroup", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("InterestGroupId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsModerator")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("JoinedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("UserId", "InterestGroupId");
+
+                    b.HasIndex("InterestGroupId");
+
+                    b.ToTable("UserInterestGroups");
+                });
+
             modelBuilder.Entity("EF_CORE.Data.UserProfile", b =>
                 {
                     b.Property<int>("Id")
@@ -121,6 +163,25 @@ namespace EF_CORE.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("EF_CORE.Data.UserInterestGroup", b =>
+                {
+                    b.HasOne("EF_CORE.Data.InterestGroup", "InterestGroup")
+                        .WithMany("UserInterestGroup")
+                        .HasForeignKey("InterestGroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EF_CORE.Data.Student", "Student")
+                        .WithMany("UserInterestGroup")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("InterestGroup");
+
+                    b.Navigation("Student");
+                });
+
             modelBuilder.Entity("EF_CORE.Data.UserProfile", b =>
                 {
                     b.HasOne("EF_CORE.Data.Student", "Student")
@@ -132,6 +193,11 @@ namespace EF_CORE.Migrations
                     b.Navigation("Student");
                 });
 
+            modelBuilder.Entity("EF_CORE.Data.InterestGroup", b =>
+                {
+                    b.Navigation("UserInterestGroup");
+                });
+
             modelBuilder.Entity("EF_CORE.Data.Role", b =>
                 {
                     b.Navigation("Students");
@@ -139,6 +205,8 @@ namespace EF_CORE.Migrations
 
             modelBuilder.Entity("EF_CORE.Data.Student", b =>
                 {
+                    b.Navigation("UserInterestGroup");
+
                     b.Navigation("UserProfile")
                         .IsRequired();
                 });

@@ -167,3 +167,11 @@ C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\GroupList.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\ListRole.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\ProfilePage.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\UserFormPage.baml
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestList.g.cs
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestList.baml
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditInterestPage.g.cs
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditInterestPage.baml
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditStudentInterestPage.g.cs
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditStudentInterestPage.baml
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestUsersPage.g.cs
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestUsersPage.baml

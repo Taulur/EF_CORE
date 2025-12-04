@@ -67,5 +67,19 @@ namespace EF_CORE.Pages
             NavigationService.Navigate(new EditProfilePage(user));
         }
 
+        private void go_interest(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new InterestList());
+        }
+
+        private void go_studentInterest(object sender, RoutedEventArgs e)
+        {
+            if (user == null)
+            {
+                MessageBox.Show("Выберите элемент из списка!");
+                return;
+            }
+            NavigationService.Navigate(new EditStudentInterestPage(user));
+        }
     }
 }

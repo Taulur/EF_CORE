@@ -15,10 +15,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button Click="go_form">Добавить пользователя</Button>
-            <Button Click="remove">Удалить пользователя</Button>
-            <Button Click="go_role">Просмотр ролей</Button>
-            <Button Click="editProfile">Посмотреть профиль</Button>
+            <Button Click="go_form">Добавить</Button>
+            <Button Click="remove">Удалить</Button>
+            <Button Click="go_role">Роли</Button>
+            <Button Click="editProfile">Профиль</Button>
+            <Button Click="go_interest" >Группы</Button>
+            <Button Click="go_studentInterest" >Запись в группу</Button>
         </StackPanel>
         <ListView Grid.Row="1" ItemsSource="{Binding service.Students}"
               MouseDoubleClick="Edit" SelectedItem="{Binding user}">
