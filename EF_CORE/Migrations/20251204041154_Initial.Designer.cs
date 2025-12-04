@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_CORE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251201155510_Initial")]
+    [Migration("20251204041154_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -24,6 +24,23 @@ namespace EF_CORE.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("EF_CORE.Data.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
 
             modelBuilder.Entity("EF_CORE.Data.Student", b =>
                 {
@@ -52,7 +69,12 @@ namespace EF_CORE.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("Students");
                 });
@@ -91,6 +113,17 @@ namespace EF_CORE.Migrations
                     b.ToTable("UserProfiles");
                 });
 
+            modelBuilder.Entity("EF_CORE.Data.Student", b =>
+                {
+                    b.HasOne("EF_CORE.Data.Role", "Role")
+                        .WithMany("Students")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("EF_CORE.Data.UserProfile", b =>
                 {
                     b.HasOne("EF_CORE.Data.Student", "Student")
@@ -100,6 +133,11 @@ namespace EF_CORE.Migrations
                         .IsRequired();
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("EF_CORE.Data.Role", b =>
+                {
+                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("EF_CORE.Data.Student", b =>

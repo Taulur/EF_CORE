@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\20251204041154_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\20251204041154_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -67,40 +95,12 @@
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\20251201205717_next.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\20251201205717_next.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\20251201205717_next.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\20251201205717_next.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\20251201160151_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\20251201160151_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\pages\\userformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,14 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\validationrules\\loginvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\validationrules\\loginvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\data\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\ef_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\ef_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\ef_core\\ef_core\\migrations\\20251201155510_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A034994C-373D-42E3-9FDE-3E494A12E5BD}|EF_CORE\\EF_CORE.csproj|solutionrelative:ef_core\\migrations\\20251201155510_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,74 +166,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ImageConverter.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Converters\\ImageConverter.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Converters\\ImageConverter.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Converters\\ImageConverter.cs",
-              "RelativeToolTip": "EF_CORE\\Converters\\ImageConverter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20251204041154_Initial.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251204041154_Initial.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251204041154_Initial.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251204041154_Initial.cs",
+              "RelativeToolTip": "EF_CORE\\Migrations\\20251204041154_Initial.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:12:49.821Z",
+              "WhenOpened": "2025-12-04T04:11:57.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PasswordValidation.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\PasswordValidation.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\PasswordValidation.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\PasswordValidation.cs",
-              "RelativeToolTip": "EF_CORE\\ValidationRules\\PasswordValidation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:34:28.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml",
-              "RelativeDocumentMoniker": "EF_CORE\\App.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml",
-              "RelativeToolTip": "EF_CORE\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T14:31:24.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListRole.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ListRole.xaml",
-              "RelativeDocumentMoniker": "EF_CORE\\Pages\\ListRole.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ListRole.xaml",
-              "RelativeToolTip": "EF_CORE\\Pages\\ListRole.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T20:00:26.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\App.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml.cs",
-              "RelativeToolTip": "EF_CORE\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T16:38:37.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\MainPage.xaml",
@@ -257,55 +195,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml",
+              "RelativeDocumentMoniker": "EF_CORE\\App.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml",
+              "RelativeToolTip": "EF_CORE\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T14:31:24.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordValidation.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\PasswordValidation.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\PasswordValidation.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\PasswordValidation.cs",
+              "RelativeToolTip": "EF_CORE\\ValidationRules\\PasswordValidation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:34:28.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Service\\StudentService.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\StudentService.cs",
+              "RelativeToolTip": "EF_CORE\\Service\\StudentService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:02:07.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:18:21.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Converters\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Converters\\ImageConverter.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Converters\\ImageConverter.cs",
+              "RelativeToolTip": "EF_CORE\\Converters\\ImageConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:12:49.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Data\\Role.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Role.cs",
+              "RelativeToolTip": "EF_CORE\\Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:01:35.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Data\\Student.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Student.cs",
+              "RelativeToolTip": "EF_CORE\\Data\\Student.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:01:39.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Data\\ObservableObject.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\ObservableObject.cs",
+              "RelativeToolTip": "EF_CORE\\Data\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:16:12.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EF_CORE\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:01:30.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListRole.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ListRole.xaml",
+              "RelativeDocumentMoniker": "EF_CORE\\Pages\\ListRole.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ListRole.xaml",
+              "RelativeToolTip": "EF_CORE\\Pages\\ListRole.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-01T20:00:26.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml.cs",
+              "RelativeDocumentMoniker": "EF_CORE\\App.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\App.xaml.cs",
+              "RelativeToolTip": "EF_CORE\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:38:37.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserFormPage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\UserFormPage.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\UserFormPage.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\UserFormPage.xaml",
               "RelativeToolTip": "EF_CORE\\Pages\\UserFormPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T20:01:06.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:01:06.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "GroupList.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupList.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\GroupList.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupList.xaml",
               "RelativeToolTip": "EF_CORE\\Pages\\GroupList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T20:00:10.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:00:10.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\ProfilePage.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ProfilePage.xaml",
               "RelativeToolTip": "EF_CORE\\Pages\\ProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T20:00:52.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:00:52.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "GroupForm.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupForm.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\GroupForm.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupForm.xaml",
               "RelativeToolTip": "EF_CORE\\Pages\\GroupForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T19:59:36.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T19:59:36.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "NumberValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\NumberValidation.cs",
               "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\NumberValidation.cs",
@@ -313,12 +383,11 @@
               "RelativeToolTip": "EF_CORE\\ValidationRules\\NumberValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:01:46.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T13:01:46.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "MainValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\MainValidation.cs",
               "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\MainValidation.cs",
@@ -326,12 +395,11 @@
               "RelativeToolTip": "EF_CORE\\ValidationRules\\MainValidation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:33:23.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T15:33:23.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "AdressValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\AdressValidation.cs",
               "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\AdressValidation.cs",
@@ -339,12 +407,11 @@
               "RelativeToolTip": "EF_CORE\\ValidationRules\\AdressValidation.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:34:11.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T15:34:11.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "DateValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\ValidationRules\\DateValidation.cs",
               "RelativeDocumentMoniker": "EF_CORE\\ValidationRules\\DateValidation.cs",
@@ -352,24 +419,22 @@
               "RelativeToolTip": "EF_CORE\\ValidationRules\\DateValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:02:02.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T13:02:02.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "EditProfilePage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\EditProfilePage.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\EditProfilePage.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\EditProfilePage.xaml",
               "RelativeToolTip": "EF_CORE\\Pages\\EditProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-01T19:59:13.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T19:59:13.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\MainPage.xaml.cs",
@@ -377,48 +442,11 @@
               "RelativeToolTip": "EF_CORE\\Pages\\MainPage.xaml.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:00:46.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:00:46.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20251201205717_Next.Designer.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201205717_Next.Designer.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251201205717_Next.Designer.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201205717_Next.Designer.cs",
-              "RelativeToolTip": "EF_CORE\\Migrations\\20251201205717_Next.Designer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T21:01:45.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EF_CORE\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:01:30.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Student.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Data\\Student.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Student.cs",
-              "RelativeToolTip": "EF_CORE\\Data\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:01:39.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "EF_CORE\\MainWindow.xaml.cs",
@@ -427,18 +455,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T12:16:50.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Role.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Data\\Role.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\Role.cs",
-              "RelativeToolTip": "EF_CORE\\Data\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:01:35.809Z"
             },
             {
               "$type": "Document",
@@ -454,42 +470,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20251201205717_Next.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201205717_Next.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251201205717_Next.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201205717_Next.cs",
-              "RelativeToolTip": "EF_CORE\\Migrations\\20251201205717_Next.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:57:17.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20251201160151_Roles.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201160151_Roles.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251201160151_Roles.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201160151_Roles.cs",
-              "RelativeToolTip": "EF_CORE\\Migrations\\20251201160151_Roles.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:01:51.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "EF_CORE\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:53:43.078Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "UserFormPage.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\UserFormPage.xaml.cs",
@@ -502,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\MainWindow.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\MainWindow.xaml",
@@ -538,30 +518,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\StudentService.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Service\\StudentService.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\StudentService.cs",
-              "RelativeToolTip": "EF_CORE\\Service\\StudentService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:02:07.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ObservableObject.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\ObservableObject.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Data\\ObservableObject.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\ObservableObject.cs",
-              "RelativeToolTip": "EF_CORE\\Data\\ObservableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T20:16:12.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Data\\UserProfile.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Data\\UserProfile.cs",
@@ -573,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "RolesService.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\RolesService.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Service\\RolesService.cs",
@@ -585,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "BaseDbService.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Service\\BaseDbService.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Service\\BaseDbService.cs",
@@ -597,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\ProfilePage.xaml.cs",
@@ -609,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "GroupList.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupList.xaml.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\GroupList.xaml.cs",
@@ -621,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "GroupForm.xaml.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Pages\\GroupForm.xaml.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Pages\\GroupForm.xaml.cs",
@@ -633,43 +589,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20251201155510_Initial.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201155510_Initial.cs",
-              "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251201155510_Initial.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251201155510_Initial.cs",
-              "RelativeToolTip": "EF_CORE\\Migrations\\20251201155510_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:55:11.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "Main.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Styles\\Interfaces\\Main.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Styles\\Interfaces\\Main.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Styles\\Interfaces\\Main.xaml",
               "RelativeToolTip": "EF_CORE\\Styles\\Interfaces\\Main.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T16:39:51.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T16:39:51.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "Default.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Styles\\Theme\\Default.xaml",
               "RelativeDocumentMoniker": "EF_CORE\\Styles\\Theme\\Default.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Styles\\Theme\\Default.xaml",
               "RelativeToolTip": "EF_CORE\\Styles\\Theme\\Default.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T16:54:39.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T16:54:39.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "20251125145247_InitialDB.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\Migrations\\20251125145247_InitialDB.cs",
               "RelativeDocumentMoniker": "EF_CORE\\Migrations\\20251125145247_InitialDB.cs",
@@ -680,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "EF_CORE.csproj",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\EF_CORE\\EF_CORE\\EF_CORE.csproj",
               "RelativeDocumentMoniker": "EF_CORE\\EF_CORE.csproj",

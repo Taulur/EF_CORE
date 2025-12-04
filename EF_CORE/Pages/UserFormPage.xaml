@@ -14,18 +14,10 @@
         <services:RolesService x:Key="rService"/>
     </Page.Resources>
 
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+    <StackPanel>
+       
 
-        <StackPanel Grid.Column="1">
-            <Label>Роль</Label>
-            <ComboBox ItemsSource="{Binding Source={StaticResource rService}, Path=Roles}"
-                      DisplayMemberPath="Title"
-                      SelectedItem="{Binding Role}"/>
-        </StackPanel>
+        
 
         <StackPanel>
             <StackPanel>
@@ -86,6 +78,14 @@
                         </TextBox.Text>
                     </TextBox>
                 </StackPanel>
+                <StackPanel>
+                    <Label>Роль</Label>
+                    <ComboBox Margin="5" Width="150" ItemsSource="{Binding Source={StaticResource rService}, Path=Roles}"
+DisplayMemberPath="Title"
+SelectedItem="{Binding Role}"/>
+                </StackPanel>
+                
+
             </StackPanel>
 
             <StackPanel>
@@ -93,5 +93,5 @@
                 <Button Click="back">Назад</Button>
             </StackPanel>
         </StackPanel>
-    </Grid>
+    </StackPanel>
 </Page>
