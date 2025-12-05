@@ -30,7 +30,7 @@ namespace EF_CORE.Pages
             InitializeComponent();
             if (interestGroup != null)
             {
-                //service.LoadRelation(role, "Users");
+                service.LoadRelation(interestGroup, "UserInterestGroup");
                 _interestGroup = interestGroup;
                 IsEdit = true;
             }

@@ -25,6 +25,7 @@ namespace EF_CORE.Pages
     {
         public InterestGroupService interestService { get; set; } = new();
         public UserInterestGroupService userInterestService { get; set; } = new();
+        public UserInterestGroupService userSerivce { get; set; } = new();
         public UserInterestGroup userInterest { get; set; } = new();
         public InterestGroup? current { get; set; } = null;
         public Student? user { get; set; }
@@ -32,9 +33,10 @@ namespace EF_CORE.Pages
         public EditStudentInterestPage(Student? _user)
         {
             user = _user;
+            userSerivce.GetAllGroupsForUser(user.Id);
             InitializeComponent();
             
-            //DataContext = new { user};
+    
         }
 
         private void add(object sender, RoutedEventArgs e)
@@ -50,16 +52,7 @@ namespace EF_CORE.Pages
                 userInterest.Student = user;
                 userInterest.InterestGroup = current;
 
-                //if (current.UserInterestGroup == null)
-                //{
-                //    current.UserInterestGroup = new ObservableCollection<UserInterestGroup>();
-                //}
-                //current.UserInterestGroup.Add(userInterest);
-                //if (user.UserInterestGroup == null)
-                //{
-                //    user.UserInterestGroup = new ObservableCollection<UserInterestGroup>();
-                //}
-                //user.UserInterestGroup.Add(userInterest);
+              
 
                 userInterestService.Add(userInterest);
                 NavigationService.GoBack();
@@ -68,6 +61,11 @@ namespace EF_CORE.Pages
                 MessageBox.Show("Выберите группу по интересам");
 
            
+        }
+
+        private void back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }

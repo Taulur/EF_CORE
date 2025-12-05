@@ -28,14 +28,8 @@ namespace EF_CORE.Pages
         public InterestUsersPage(InterestGroup interestGroup)
         {
             UserInterestGroupService.GetAll(interestGroup.Id);
-            MessageBox.Show(UserInterestGroup[0].Student.Name);
-            //if (interestGroup.UserInterestGroup != null)
-            //{
-            //    foreach (var userInterestGroup in interestGroup.UserInterestGroup)
-            //    {
-            //        UserInterestGroup.Add(userInterestGroup);
-            //    }
-            //}
+            
+           
             InitializeComponent();
 
         }

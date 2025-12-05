@@ -16,6 +16,7 @@ namespace EF_CORE.Service
         public StudentsService()
         {
             GetAll();
+            GetGroups();
         }
         public void Add(Student user)
         {
@@ -43,16 +44,11 @@ namespace EF_CORE.Service
                                     .Include(s => s.Role)
                                     .Where(u => u.RoleId == roleId)
                                     .ToList();
-
                 Students.Clear();
-
                 foreach (var student in students)
                 {
                     Students.Add(student);
                 }
-
-
-
             }
             else
             {
@@ -62,15 +58,19 @@ namespace EF_CORE.Service
                                             .ToList();
 
                 Students.Clear();
-
                 foreach (var user in users)
                 {
                     Students.Add(user);
                 }
             }
-
-
-
+        }
+        public void GetGroups(int? studentId = null)
+        {
+            var interestTitles = _db.Students
+    .Where(s => s.Id == studentId)
+    .SelectMany(s => s.UserInterestGroup)
+    .Select(uig => uig.InterestGroup.Title)
+    .ToList();
         }
         public void Remove(Student user)
         {

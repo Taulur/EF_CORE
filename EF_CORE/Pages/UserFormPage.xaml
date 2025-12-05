@@ -80,9 +80,16 @@
                 </StackPanel>
                 <StackPanel>
                     <Label>Роль</Label>
-                    <ComboBox Margin="5" Width="150" ItemsSource="{Binding Source={StaticResource rService}, Path=Roles}"
-DisplayMemberPath="Title"
-SelectedItem="{Binding Role}"/>
+                    <ComboBox Margin="5" Width="150" DisplayMemberPath="Title" SelectedItem="{Binding Role}">
+                        <ComboBox.ItemsSource>
+                            <Binding  Source="{StaticResource rService}" Path="Roles">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                            </Binding>
+                        </ComboBox.ItemsSource>
+                    </ComboBox>
+                              
                 </StackPanel>
                 
 

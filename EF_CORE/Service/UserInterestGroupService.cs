@@ -55,6 +55,22 @@ namespace EF_CORE.Service
             }
         }
 
+        public void GetAllGroupsForUser(int userId)
+        {
+            var userGroups = _db.UserInterestGroups
+                               .Include(ug => ug.Student)
+                               .Include(ug => ug.InterestGroup)
+                               .Where(ug => ug.UserId == userId)
+                               .ToList();
+
+            UserInterestGroups.Clear();
+
+            foreach (var userGroup in userGroups)
+            {
+                UserInterestGroups.Add(userGroup);
+            }
+        }
+
         public void UserInterestAttach(Student student, InterestGroup interestGroup)
         {
             _db.Students.Attach(student);

@@ -11,7 +11,7 @@ namespace EF_CORE.Service
     public class InterestGroupService
     {
         private readonly AppDbContext _db = BaseDbService.Instance.Context;
-        public static ObservableCollection<InterestGroup> InterestGroups { get; set; } = new();
+        public ObservableCollection<InterestGroup> InterestGroups { get; set; } = new();
         public int Commit() => _db.SaveChanges();
         public void Add(InterestGroup interestGroup)
         {

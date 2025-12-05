@@ -151,7 +151,6 @@ C:\Учеба\EF_CORE\EF_CORE\bin\Debug\net8.0-windows\MaterialDesignColors.dll
 C:\Учеба\EF_CORE\EF_CORE\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Учеба\EF_CORE\EF_CORE\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\EF_CORE_Content.g.cs
-C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\App.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Styles\Interfaces\Main.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Styles\Theme\Default.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\EF_CORE.sourcelink.json
@@ -175,3 +174,4 @@ C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditStudentInterest
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\EditStudentInterestPage.baml
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestUsersPage.g.cs
 C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\Pages\InterestUsersPage.baml
+C:\Учеба\EF_CORE\EF_CORE\obj\Debug\net8.0-windows\App.baml

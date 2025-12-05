@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EF_CORE.Pages"
+      xmlns:validators="clr-namespace:EF_CORE.ValidationRules"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="EditInterestPage">
@@ -11,11 +12,27 @@
     <StackPanel>
         <StackPanel>
             <Label>Наименование группы</Label>
-            <TextBox Text="{Binding Title}"/>
+            <TextBox>
+                <TextBox.Text>
+                    <Binding Path="Title">
+                        <Binding.ValidationRules>
+                            <validators:GroupValidation/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
         </StackPanel>
         <StackPanel>
             <Label>Описание</Label>
-            <TextBox Text="{Binding Description}"/>
+            <TextBox>
+                <TextBox.Text>
+                    <Binding Path="Description">
+                        <Binding.ValidationRules>
+                            <validators:MainValidation/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
         </StackPanel>
         <StackPanel>
             <Button Click="save">Сохранить</Button>

@@ -12,7 +12,7 @@ namespace EF_CORE.Service
     public class RolesService
     {
         private readonly AppDbContext _db = BaseDbService.Instance.Context;
-        public static ObservableCollection<Role> Roles { get; set; } = new();
+        public ObservableCollection<Role> Roles { get; set; } = new();
         public void GetAll()
         {
             var groups = _db.Roles.ToList();
